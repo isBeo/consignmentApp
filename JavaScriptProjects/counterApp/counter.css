@@ -1,0 +1,125 @@
+html{
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgba(0, 0, 0, 0.215);
+}
+div.wrapper{
+    background-color: hsl(0, 3%, 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 100%;
+    height:15vh;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    width: 300px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    /* background-color: cyan; */
+    height: 65vh;
+}
+
+.display{
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    border-radius:5px;
+    grid-column: 1/4;
+    margin: 40px auto;
+    box-shadow: 0 0 5px rgb(165, 163, 163);
+    margin-bottom: 3rem;
+    background-color: rgb(244, 203, 203);
+    font-size:7rem;
+    text-align: center;
+}
+
+button{
+    height: 5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border:none;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 5px ;
+    /* margin: .5rem; */
+    margin: 40px 15px;
+}
+
+#b1{
+    background-color: hsl(0, 1%, 32%);
+    color:white;
+}
+#b2{
+    background-color: hsl(0, 93%, 51%);
+    color:hsl(0, 93%, 81%);
+    font-size: 3rem;
+
+}
+#b2:hover{
+    background-color: hsl(0, 93%, 31%);
+    color:white;
+}
+#b2:active{
+    background-color:hsl(0, 93%, 31%);
+    color:hsl(0, 93%, 81%);
+}
+#b3{
+    background-color: hsl(0, 1%, 32%);
+    color:white;
+}
+#b3:hover{
+    background-color: hsl(0, 1%, 12%);
+    color:white;
+}
+#b3:active{
+    background-color:  hsl(0, 1%, 12%);
+    color:hsl(0, 1%, 72%);
+}
+#b4{
+    background-color: hsl(106, 96%, 38%);
+    color:white;
+    font-size: 3rem;
+}
+#b4:hover{
+    background-color: hsl(106, 96%, 18%);
+    color:white;
+}
+#b4:active{
+    color:white;
+    font-size: 3rem;
+    color:hsl(106, 96%, 58%)
+}
+
+footer{
+    /* font-size:1.2rem;
+    padding: 30px;
+    text-align: center; */
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 100%;
+    height:15vh;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    font-size: 1.6rem;
+}

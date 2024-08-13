@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: hsl(180, 100%, 90%);
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    height: 15%;
+}
+button{
+    padding: 15px;
+    color:hsl(240, 100%, 100%);
+    background-color: hsl(180, 100%, 10%);
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 20px hsl(0, 0%, 10%);
+    font-weight: bold;
+
+}
+
+#wp{
+    display: flex;
+    /* background-color: hsl(180, 100%, 60%); */
+    flex-direction: column;
+    row-gap:30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.display{
+    margin-top: 10px;
+    background-color: hsla(60, 100%, 50%, 0.579);
+    width: 100%;
+    text-align: center;
+    height: 80%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#min,#max{
+    height: 30px;
+    padding: 20px;
+    width: 100px;
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-inline: 5px;
+}
+
+
+#show{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: cyan;
+    overflow: scroll;
+    padding: 20px;
+}
